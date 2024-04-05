@@ -50,7 +50,7 @@ websites. I am eager to continue learning and exploring new opportunities in the
 the goal of making a meaningful impact through my work.
 
                     </p>
-                    <a href='#contact' className='btn btn-primary text-black'>Let's Talk</a>
+                  
                 </div>
             </div>
 
