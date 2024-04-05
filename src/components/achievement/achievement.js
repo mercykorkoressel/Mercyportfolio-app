@@ -1,4 +1,4 @@
-import AVTR1 from "../../assets/apo.jpg";
+import AVTR1 from "../../assets/mercy5.jpeg";
 import "./achievement.css";
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,30 +7,20 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const data = [
+   
     {
         avatar: AVTR1,
-        title: "udemy certificate",
         time: '10 minutes ago',
-        post: 'loremConsectetur excepteur non eu excepteur sunt voluptate ullamco duis ea. Officia esse occaecat dolore nostrud anim ad elit irure cupidatat mollit commodo enim. Laboris sint dolore ea anim qui nostrud culpa magna et excepteur quis. Do officia adipisicing non nostrud laborum id culpa sunt deserunt ea magna. Qui ut aliqua enim sunt officia. Consequat veniam consectetur et sint tempor commodo deserunt do aliquip velit. Nulla duis ut ea ad Lorem commodo ut laboris sit aliquip adipisicing Lorem.'
+        title: 'Kumasi Hive Hackathon Success',
+        post: 'In 2019, I had the privilege of participating in the Kumasi Hive Hackathon, where I showcased my skills and expertise alongside nine other talented teams. It was a highly competitive event, but Im proud to say that our team emerged as the Second Runner-up, demonstrating our dedication, creativity, and ability to collaborate effectively under pressure'
     },
     {
         avatar: AVTR1,
         time: '10 minutes ago',
-        title: 'Second achievement',
-        post: 'loremConsectetur excepteur non eu excepteur sunt voluptate ullamco duis ea. Officia esse occaecat dolore nostrud anim ad elit irure cupidatat mollit commodo enim. Laboris sint dolore ea anim qui nostrud culpa magna et excepteur quis. Do officia adipisicing non nostrud laborum id culpa sunt deserunt ea magna. Qui ut aliqua enim sunt officia. Consequat veniam consectetur et sint tempor commodo deserunt do aliquip velit. Nulla duis ut ea ad Lorem commodo ut laboris sit aliquip adipisicing Lorem'
+        title: 'Kumasi Hive Hackathon Success',
+        post: 'In 2019, I had the privilege of participating in the Kumasi Hive Hackathon, where I showcased my skills and expertise alongside nine other talented teams. It was a highly competitive event, but Im proud to say that our team emerged as the Second Runner-up, demonstrating our dedication, creativity, and ability to collaborate effectively under pressure'
     },
-    {
-        avatar: AVTR1,
-        time: '10 minutes ago',
-        title: 'Third achievement',
-        post: 'loremConsectetur excepteur non eu excepteur sunt voluptate ullamco duis ea. Officia esse occaecat dolore nostrud anim ad elit irure cupidatat mollit commodo enim. Laboris sint dolore ea anim qui nostrud culpa magna et excepteur quis. Do officia adipisicing non nostrud laborum id culpa sunt deserunt ea magna. Qui ut aliqua enim sunt officia. Consequat veniam consectetur et sint tempor commodo deserunt do aliquip velit. Nulla duis ut ea ad Lorem commodo ut laboris sit aliquip adipisicing Lorem'
-    },
-    {
-        avatar: AVTR1,
-        time: '10 minutes ago',
-        title: 'Fourth achievement',
-        post: 'loremConsectetur excepteur non eu excepteur sunt voluptate ullamco duis ea. Officia esse occaecat dolore nostrud anim ad elit irure cupidatat mollit commodo enim. Laboris sint dolore ea anim qui nostrud culpa magna et excepteur quis. Do officia adipisicing non nostrud laborum id culpa sunt deserunt ea magna. Qui ut aliqua enim sunt officia. Consequat veniam consectetur et sint tempor commodo deserunt do aliquip velit. Nulla duis ut ea ad Lorem commodo ut laboris sit aliquip adipisicing Lorem'
-    }
+    
 ];
 
 const Achievement = () => {
@@ -53,7 +43,6 @@ const Achievement = () => {
                             </div>
                             <h5 className='achievement-title'>{title}</h5>
                             <small className='achievement-note'>{post}</small>
-                            <small className='achievement-time'>{time}</small>
                         </SwiperSlide>
                     );
                 })}

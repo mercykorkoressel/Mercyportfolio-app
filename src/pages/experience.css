@@ -45,6 +45,8 @@ transition: var(--transition);
 
 .experience__details-icon{
   margin-top: 6px;
+  height: 30px;
+  width: 30px;
 
 }
 

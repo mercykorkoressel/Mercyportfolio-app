@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import image from '../../assets/c704f923-e595-469a-9e8c-f9137ef31039.jpg'
+import image from '../../assets/mercy5.jpeg'
 import { FaAward } from 'react-icons/fa';
 import { FiUser } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -26,25 +26,28 @@ function About(props) {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>3+ years working Experience</small>
+                            <small>3+ months learning Experience</small>
                         </article>
 
                         <article className='about__card'>
                             <FiUser className='about__icon' />
                             <h5>Clients</h5>
-                            <small>300+ Clients Worldwide</small>
+                            <small>3+ Clients Worldwide</small>
                         </article>
 
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>80+ completed Projects</small>
+                            <small>3+ completed Projects</small>
                         </article>
                     </div>
                     <p>
-                        Crafting immersive digital experiences through innovative design and flawless functionality."
-
-                        This statement emphasizes your expertise in creating engaging web experiences while highlighting your skills in design and development. It conveys a sense of creativity, technical prowess, and a commitment to delivering high-quality work.
+                    I am a passionate web development enthusiast currently pursuing a web development course. With a solid
+background in social media and digital marketing, I bring a unique blend of skills to the table. My experience in
+social media and digital marketing has equipped me with valuable insights into user engagement, content
+strategy, and online branding. I am committed to leveraging these skills to create compelling and user-friendly
+websites. I am eager to continue learning and exploring new opportunities in the field of web development, with
+the goal of making a meaningful impact through my work.
 
                     </p>
                     <a href='#contact' className='btn btn-primary text-black'>Let's Talk</a>
