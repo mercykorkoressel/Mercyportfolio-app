@@ -12,7 +12,7 @@ const data = [
         avatar: AVTR1,
         time: '10 minutes ago',
         title: 'Virtual Internship with coreXtreme',
-        post: 'During my virtual internship with Corextreme, I collaborated with a dynamic team on the development of the admin portal for the Padi App, a promotion and discount showcasing application'
+        post: 'During my virtual internship with Corextreme, I collaborated with a dynamic team on the development of the admin portal for the Padi App, a promotion and discount showcasing application his experience provided me with invaluable hands-on experience in software development, project management, and teamwork, deepening my understanding of web application development'
     },
     {
         avatar: AVTR1,
