@@ -8,7 +8,7 @@ import { HashLink } from 'react-router-hash-link'; // Import HashLink
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <a href='#' className={styles.footer_logo}>JADE TECH</a>
+            <a href='#' className={styles.footer_logo}>MERCY KORKOR ESSEL</a>
 
             <ul className={styles.permalinks}>
                 <li><HashLink smooth to="#home" className="hover:text-gray-300">Home</HashLink></li>
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
 
             <div className={styles.footer_copyright}>
-                <small>&copy;JADE TECH. All rights reserved</small>
+                <small>&copy;MERCY KORKOR ESSEL. All rights reserved</small>
             </div>
         </footer>
     )

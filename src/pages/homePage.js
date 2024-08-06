@@ -14,13 +14,13 @@ function Home() {
     return (
         <section id='home'>
             <div>
-                <Navbar />
-                <Header />
+                <Navbar /> 
+                 <Header />
                 <About />
                 <Skills />
                 <Projects/>
                 <Achievement />
-                <Experience />
+                <Experience /> 
                 <Posts />
                 <Contact/>
                 <Footer />

@@ -10,8 +10,8 @@ export default function Header() {
     return (
         <>
             <section id='#'>
-                <Nav />
-                <header className="text-center justify-center px-5">
+               
+                <header    class="rounded-lg min-w-[100px] w-full h-auto md:w-auto md:h-auto" className="text-center justify-center px-5">
                     <div className="text-center px-10">
                         <h5 className="px-5 mt-20 text-2xl">Hello I'm</h5>
                         <h1 className="text-3xl font-bold">Mercy Korkor Essel</h1>

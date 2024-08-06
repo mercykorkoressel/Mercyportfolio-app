@@ -7,7 +7,7 @@ import { IoHomeOutline } from "react-icons/io5";
 
 const Navbar =()=>{
     return(
-        <nav>
+        <nav> 
             <a href="#" className="active">home</a>
             <a href="#about">about</a>
             <a href="#skills">skills</a>

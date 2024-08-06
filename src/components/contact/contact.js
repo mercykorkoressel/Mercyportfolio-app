@@ -79,7 +79,7 @@ export default function Contact() {
                     </div>
                 </div>
               
-                <form class="ml-auo space-y-4">
+                <form  action='https://formspree.io/f/mqkrwvrr' class="ml-auo space-y-4">
                     <input type='text' placeholder='Name'
                         class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]" />
                     <input type='email' placeholder='Email'
